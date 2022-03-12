@@ -1,0 +1,203 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* GLOBALS */
+.container {
+  max-width: 345px;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainContent {
+  border: 1px solid #cfcfd5;
+  border-radius: 4px;
+  box-shadow: 0 1px 21px rgb(0 0 0 / 17%);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #42442f;
+}
+
+label {
+  color: #333;
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px inset rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+/* RETURN LINK */
+.return-link {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* AMOUNT SECTION */
+.amountSection {
+  padding: 20px 20px 10px 20px;
+  border-bottom: 1px solid #eaeaed;
+}
+.amount {
+  font-size: 24px;
+  color: #333;
+  opacity: 0.6;
+}
+.amount-display {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.amount-display img {
+  width: 45px;
+  height: 45px;
+  border: 1px inset rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+/* INPUT FORM */
+.payment-section {
+  padding: 10px 20px 20px 20px;
+  background-color: #f8f8f9;
+}
+
+.cardNumber label,
+.dateAndPin label {
+  position: relative;
+  top: 28px;
+  left: 35px;
+  z-index: 1;
+}
+
+.card-input,
+.date-pick,
+.pin-entry {
+  position: relative;
+}
+
+.card-input > svg,
+.date-pick > svg,
+.pin-entry > svg {
+  position: absolute;
+  top: 6px;
+  left: 3px;
+}
+
+.card-input > input,
+.date-pick > input,
+.pin-entry > input {
+  padding-left: 30px;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-input > input:focus,
+.date-pick > input:focus,
+.pin-entry > input:focus {
+  outline: none;
+}
+
+.dateAndPin {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cvv {
+  position: relative;
+  left: 42px;
+}
+
+.submit {
+  margin-top: 30px;
+}
+.submit input[type="button"] {
+  width: 100%;
+  background-color: rgba(0, 184, 222, 0.8);
+  background-size: 4px 3px;
+  border-radius: 4px;
+  border-style: none;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  outline: none;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.submit input[type="button"]:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+.divider {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333;
+  opacity: 0.7;
+}
+.verve input[type="button"] {
+  width: 100%;
+  background-color: rgb(0, 66, 95, 0.8);
+  background-size: 4px 3px;
+  border-radius: 4px;
+  border-style: none;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  outline: none;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.verve input[type="button"]:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 20%;
+  margin: 13px auto;
+}
+.image-group {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
